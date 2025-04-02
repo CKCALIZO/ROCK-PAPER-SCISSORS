@@ -1,0 +1,39 @@
+* {
+  color: #1667fd;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.bg-color {
+  background-color: #DFDFE4;
+}
+
+.wrapper {
+  min-height: 100vh;
+}
+
+.hover-primary:hover {
+  background-color: var(--bs-primary) !important;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.main-content {
+  height: 70vh;
+}
+
+.footer-container {
+  height: 10vh;
+}
+
+.wrapper.dark {
+  background-color: #121212;
+}
+.wrapper.dark .component-dark {
+  background-color: #121212;
+}
+.wrapper.dark .heading-dark,
+.wrapper.dark .heading-dark * {
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */

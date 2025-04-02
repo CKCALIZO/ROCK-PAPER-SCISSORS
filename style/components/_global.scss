@@ -1,0 +1,20 @@
+*{
+    color:#1667fd;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.bg-color {
+    background-color: $gray;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+.hover-primary:hover {
+    background-color: var(--bs-primary) !important; 
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+

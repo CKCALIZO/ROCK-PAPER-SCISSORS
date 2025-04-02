@@ -1,0 +1,14 @@
+.wrapper {
+    &.dark {
+        background-color: $main-bg-d;
+
+        .component-dark {
+            background-color: $bg-component-d;
+        }
+
+        .heading-dark,
+        .heading-dark * {
+            color: $heading-d;
+        }
+    }
+}
